@@ -21,9 +21,9 @@ module.exports = {
     devtool: 'source-map',
     devServer: {
         static: {
-            directory: path.resolve(__dirname, 'dist')
+            directory: path.resolve(__dirname, 'dev')
         },
-        port: 3030,
+        port: 3080,
         // opens the webpage immediately on startup
         open: true,
         hot: true,

@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config=webpack.config.dev.js",
     "build-prod": "webpack --config=webpack.config.prod.js",
-    "dev": "webpack server"
+    "start": "webpack-dev-server --config=webpack.config.dev.js "
   },
   "repository": {
     "type": "git",
